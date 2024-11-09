@@ -1,6 +1,8 @@
-// Description: A simple Discord bot that responds to a specific command.
-const { Client, GatewayIntentBits } = require('discord.js');
-require('dotenv').config(); // Load environment variables from .env file
+/**
+ * A simple Discord bot that responds to a specific command.
+ */
+import { Client, GatewayIntentBits } from 'discord.js';
+import 'dotenv/config';
 
 // Create a new client instance
 const client = new Client({
